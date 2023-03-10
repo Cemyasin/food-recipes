@@ -1,42 +1,136 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
+</head>
+
+
 <body>
-    <a href="index.html"><h2 style="color: black;">Anasayfaya Dön</h2></a>
-    <h1>Fırında Karnabahar</h1>
-    <img src="image/karnabahar.jpeg" alt="" width="400" height="250">
 
 
-    <h3>Fırında Karnabahar Tarifi İçin Malzemeler</h3>
-    <ul>
-        <li>1 orta boy karnabahar</li>
-        <li> 1 şişe maden suyu</li>
-        <li> 1 adet yumurta</li>
-        <li>  1 yemek kaşığı un</li>
-        <li>  2 yemek kaşığı galeta unu</li>
-        <li> 2 yemek kaşığı mısır unu</li>
-        <li> 3-4 yemek kaşığı zeytinyağ</li>
-        <li>4 adet fesleğen yaprağı</li>
-        <li>  1 çimdik karabiber</li>
-        <li>1 tatlı kaşığı pul biber</li>
+    <div class="app">
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer;font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                onclick="openNav()">&#9776; MENU</span>
+
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Anasayfa</a>
+                <a href="#">Hakkımızda</a>
+                <a href="#">Tarifler</a>
+                <button class="dropdown-btn">Giriş
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#">Hesap Oluştur</a>
+                    <a href="#">Hesabım Var</a>
+                </div>
+                <a href="#">Destek</a>
+            </div>
+            <div class="card2">
+                <div class="baslik">
+                    <h1>Fırında Karnabahar</h1>
+                </div>
+
+                <div class="gorsel">
+                    <img src="image/karnabahar.jpeg" alt="" width="400" height="250">
+                </div>
+
+                <div class="malzemeBaslik">
+                    <h3>Fırında Karnabahar Tarifi İçin Malzemeler</h3>
+                </div>
+
+                <div class="malzeme">
+                    <ul>
+                        <li>1 orta boy karnabahar</li>
+                        <li> 1 şişe maden suyu</li>
+                        <li> 1 adet yumurta</li>
+                        <li> 1 yemek kaşığı un</li>
+                        <li> 2 yemek kaşığı galeta unu</li>
+                        <li> 2 yemek kaşığı mısır unu</li>
+                        <li> 3-4 yemek kaşığı zeytinyağ</li>
+                        <li>4 adet fesleğen yaprağı</li>
+                        <li> 1 çimdik karabiber</li>
+                        <li>1 tatlı kaşığı pul biber</li>
+                    </ul>
+                </div>
+
+                <div class="yapimBaslik">
+                    <h2>Fırında Karnabahar Tarifi Nasıl Yapılır?</h2>
+                </div>
+
+                <div class="yapim">
+                    <ol>
+                        <li>Karnabaharı küçük parçalara ayırıp yıkayalım.</li>
+                        <li>Sos için tüm malzemeleri birlikte karıştırın.</li>
+                        <li>Ardından karnabaharı sosa bulayın. Yağlı kağıt serili fırın tepsisine dizin.</li>
+                        <li>Önceden ısıtılmış 200°c fırında pişirin.</li>
+                        <li>Ardından yoğurda batırıp tüketebilirsiniz.</li>
+                    </ol>
+                </div>
+
+                <h2>Fırında Karnabahar Fotoğraflı Yapılışı</h2>
+                <img src="image/k1.jpg" alt="">
+                <img src="image/k2.jpg" alt="">
+                <img src="image/k3.jpg" alt="">
+                <img src="image/k4.jpg" alt="">
+                <img src="image/k5.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer style="text-align: center;">Copyright &copy; 2023
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
 
 
 
-    </ul>
-    <h2>Fırında Karnabahar Tarifi Nasıl Yapılır?</h2>
-    <ol>
-        <li>Karnabaharı küçük parçalara ayırıp yıkayalım.</li>
-        <li>Sos için tüm malzemeleri birlikte karıştırın.</li>
-        <li>Ardından karnabaharı sosa bulayın. Yağlı kağıt serili fırın tepsisine dizin.</li>
-        <li>Önceden ısıtılmış 200°c fırında pişirin.</li>
-        <li>Ardından yoğurda batırıp tüketebilirsiniz.</li>
-    </ol>
-    <h2>Fırında Karnabahar Fotoğraflı Yapılışı</h2>>
-    <img src="image/k1.jpg" alt="">
-    <img src="image/k2.jpg" alt="">
-    <img src="image/k3.jpg" alt="">
-    <img src="image/k4.jpg" alt="">
-    <img src="image/k5.jpg" alt="">
+
+
+
+
+
+
 </body>
 
 </html>

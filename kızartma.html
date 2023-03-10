@@ -1,46 +1,140 @@
 <!DOCTYPE html>
 <html>
 
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
+</head>
+
+
 <body>
-    <a href="index.html">
-        <h2 style="color: black;">Anasayfaya Dön</h2>
-    </a>
-    <h1>Fırında Sebze Kızartma Tarifi</h1>
-    <img src="image/sebzeKızartma.jpeg" alt="" width="400" height="250">
 
 
-    <h3>Fırında Sebze Kızartma Tarifi İçin Malzemeler</h3>
-    <ul>
-        <li>2-3 adet patates</li>
-        <li>2 havuç</li>
-        <li>Yarım karnabahar</li>
-        <li>Yarım brokoli</li>
-        <li>Zeytinyağı</li>
-        <li> Tuz, kırmızı toz biber, zerdeçal</li>
-        <li>Sarımsaklı yoğurt</li>
-    </ul>
-    <h2>Fırında Sebze Kızartma Tarifi Nasıl Yapılır?</h2>
-    <ol>
-        <li>Önce patates ve havuçlardan başlayalım. Soyup dilimleyelim ve büyük bir kapta zeytinyağı ve baharatlarla
-            harmanlayalım. Yağlı kağıt serili tepsiye yayalım 200 derece fırında 15 dk pişirelim.</li>
-        <li>Karnabaharı çiçeklerine ayıralım ve patatesleri sosladığımız kaba alalım. Gerekiyorsa tekrar yağ ekleyelim
-            baharatlardan da ekleyip harmanlayalım.</li>
-        <li>15 dakika pişen patates ve havuçların üzerine karnabaharları da ekleyelim 10 dakika da öyle pişirelim. En
-            son brokoliyi ekleyeceğiz, brokoli hızlı pişip yanmaya dönüyor bu yüzden en son ekleyeceğiz.</li>
-        <li>Çiçeklerine ayırdığımız brokoliyi de aynı kapta zeytinyağı ve baharatlarla harmanlayalım ve fırından
-            çıkardığımız tepsiye ekleyelim. Brokoliler de pişince tepsiyi fırından çıkaralım.</li>
-        <li>İlk sıcaklığı geçince servis tabağına yoğurt koyup üzerine sebzeleri ekleyelim. Hepsi çok güzel pişmiş
-            oluyor ve aromaları birbirine karıştığı için gerçekten çok lezzetli oluyor. Denemenizi tavsiye ederim afiyet
-            olsun :)</li>
-    </ol>
-    <h2>Çıtır Patates Eşliğinde Ev Yapımı Ranch Sos Tarifi Fotoğraflı Yapılışı</h2>>
-    <img src="image/sk1.jpg" alt="">
-    <img src="image/sk2.jpg" alt="">
-    <img src="image/sk3.jpg" alt="">
-    <img src="image/sk4.jpg" alt="">
-    <img src="image/sk5.jpg" alt="">
-    <img src="image/sk6.jpg" alt="">
-    <img src="image/k8.jpg" alt="">
+    <div class="app">
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer;font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                onclick="openNav()">&#9776; MENU</span>
+
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Anasayfa</a>
+                <a href="#">Hakkımızda</a>
+                <a href="#">Tarifler</a>
+                <button class="dropdown-btn">Giriş
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#">Hesap Oluştur</a>
+                    <a href="#">Hesabım Var</a>
+                </div>
+                <a href="#">Destek</a>
+            </div>
+            <div class="card2">
+                <div class="baslik">
+                    <h1>Fırında Sebze Kızartma Tarifi</h1>
+                </div>
+
+                <div class="gorsel">
+                    <img src="image/sebzeKızartma.jpeg" alt="" width="400" height="250">
+                </div>
+
+                <div class="malzemeBaslik">
+                    <h3>Fırında Sebze Kızartma Tarifi İçin Malzemeler</h3>
+                </div>
+
+                <div class="malzeme">
+                    <ul>
+                        <li>2-3 adet patates</li>
+                        <li>2 havuç</li>
+                        <li>Yarım karnabahar</li>
+                        <li>Yarım brokoli</li>
+                        <li>Zeytinyağı</li>
+                        <li> Tuz, kırmızı toz biber, zerdeçal</li>
+                        <li>Sarımsaklı yoğurt</li>
+                    </ul>
+                </div>
+
+                <div class="yapimBaslik">
+                    <h2>Fırında Sebze Kızartma Tarifi Nasıl Yapılır?</h2>
+                </div>
+
+                <div class="yapim">
+                    <ol>
+                        <li>Önce patates ve havuçlardan başlayalım. Soyup dilimleyelim ve büyük bir kapta zeytinyağı ve
+                            baharatlarla
+                            harmanlayalım. Yağlı kağıt serili tepsiye yayalım 200 derece fırında 15 dk pişirelim.</li>
+                        <li>Karnabaharı çiçeklerine ayıralım ve patatesleri sosladığımız kaba alalım. Gerekiyorsa tekrar
+                            yağ ekleyelim
+                            baharatlardan da ekleyip harmanlayalım.</li>
+                        <li>15 dakika pişen patates ve havuçların üzerine karnabaharları da ekleyelim 10 dakika da öyle
+                            pişirelim. En
+                            son brokoliyi ekleyeceğiz, brokoli hızlı pişip yanmaya dönüyor bu yüzden en son ekleyeceğiz.
+                        </li>
+                        <li>Çiçeklerine ayırdığımız brokoliyi de aynı kapta zeytinyağı ve baharatlarla harmanlayalım ve
+                            fırından
+                            çıkardığımız tepsiye ekleyelim. Brokoliler de pişince tepsiyi fırından çıkaralım.</li>
+                        <li>İlk sıcaklığı geçince servis tabağına yoğurt koyup üzerine sebzeleri ekleyelim. Hepsi çok
+                            güzel pişmiş
+                            oluyor ve aromaları birbirine karıştığı için gerçekten çok lezzetli oluyor. Denemenizi
+                            tavsiye ederim afiyet
+                            olsun :)</li>
+                    </ol>
+                </div>
+
+                <h2>Çıtır Patates Eşliğinde Ev Yapımı Ranch Sos Tarifi Fotoğraflı Yapılışı</h2>
+                <img src="image/sk1.jpg" alt="">
+                <img src="image/sk2.jpg" alt="">
+                <img src="image/sk3.jpg" alt="">
+                <img src="image/sk4.jpg" alt="">
+                <img src="image/sk5.jpg" alt="">
+                <img src="image/sk6.jpg" alt="">
+                <img src="image/k8.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer style="text-align: center;">Copyright &copy; 2023
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

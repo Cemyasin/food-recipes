@@ -69,6 +69,79 @@ p {
     column-gap: 20px;
 }
 
+ol{
+    margin-left:50px;
+  }
+  .card2 {
+      background-color: pink;
+      width: 900px;
+      padding: 10px;
+      margin-left: 20px;
+      margin-right:20px;
+    text-align:center;
+  }
+  
+  .card2 .gorsel {
+      background-color: lightblue;
+      width: 216px;
+      height: 216px;
+      margin-left: 250px;
+      margin-right: 250px;
+      margin-bottom: 100px;
+      text-align: center;
+  
+  }
+  
+  .card2 .gorsel img {
+      width: 400px;
+      height: 300px;
+  }
+  
+  .card2 .baslik {
+      padding: 10px;
+      margin-bottom: 10px;
+  text-align:center;
+  
+  }
+  
+  .card2 .malzemeBaslik {
+      background-color: rgb(172, 91, 158);
+      padding: 10px;
+      margin-left:50px;
+  margin-right:50px;
+  text-align:center;
+  
+  }
+  
+  .card2 .malzeme {
+      padding: 10px;
+  margin-left:300px;
+  margin-right:300px;
+  text-align:left;
+  margin-bottom:50px;
+  
+  
+  }
+  
+  .card2 .yapimBaslik {
+    background-color: rgb(36, 192, 70);
+      margin-left:30px;
+  margin-right:30px;
+      padding: 10px;
+  margin-bottom:20px;
+  
+  }
+  
+  .card2 .yapim {
+  margin-bottom:10px;
+      background-color: maroon;
+        margin-left:30px;
+        margin-right:30px;  
+        padding: 20px;
+        text-align:center;
+        font-size: 18px;
+  }
+
 .sidenav {
     height: 100%;
     width: 0;
